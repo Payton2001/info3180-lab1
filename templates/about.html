@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 
 <body>
     <h1>Shadean Payton</h1>
+    <img src="{{ url_for('static', filename='css/python_img.png')}}" alt="Some Backend Python Code">
     <p>
         My name is Shadean, a second year, computer science 
         student at the university of the West Indies in 
